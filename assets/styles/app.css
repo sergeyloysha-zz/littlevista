@@ -34,7 +34,7 @@ body {
   margin-top: -200px;
 }
 .page .logo {
-  background: url("/assets/images/logo.png") center no-repeat;
+  background: url("../images/logo.png") center no-repeat;
   width: 258px;
   height: 128px;
   margin: 0 auto;
@@ -104,7 +104,7 @@ body {
 }
 .sidebar__logo {
   display: inline-block;
-  background: url("/assets/images/logo_small.png") center no-repeat;
+  background: url("../images/logo_small.png") center no-repeat;
   width: 156px;
   height: 44px;
   margin-top: 13px;
@@ -178,16 +178,16 @@ body {
   background-size: 50px 25px;
 }
 .nav__icon-dashboard {
-  background-image: url("/assets/images/icon-dashboard.png");
+  background-image: url("../images/icon-dashboard.png");
 }
 .nav__icon-review {
-  background-image: url("/assets/images/icon-review.png");
+  background-image: url("../images/icon-review.png");
 }
 .nav__icon-account {
-  background-image: url("/assets/images/icon-account.png");
+  background-image: url("../images/icon-account.png");
 }
 .nav__icon-logout {
-  background-image: url("/assets/images/icon-logout.png");
+  background-image: url("../images/icon-logout.png");
 }
 .nav span {
   font-weight: 300;
@@ -242,7 +242,7 @@ body {
   margin: 0 30px;
 }
 .card__icon {
-  background-image: url("/assets/images/dashboard-sprite.png");
+  background-image: url("../images/dashboard-sprite.png");
   background-repeat: no-repeat;
   width: 60px;
   height: 60px;
@@ -307,7 +307,7 @@ body {
   top: -1px;
   width: 39px;
   height: 39px;
-  background: url("/assets/images/icon-plus.png") center no-repeat;
+  background: url("../images/icon-plus.png") center no-repeat;
   vertical-align: middle;
   margin-right: 20px;
 }
