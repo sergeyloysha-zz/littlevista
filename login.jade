@@ -1,0 +1,26 @@
+doctype
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+
+    title Little Vista
+
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+
+    link(rel='stylesheet', href='assets/styles/vendor.css')
+    link(rel='stylesheet', href='assets/styles/app.css')
+
+  body.page.login
+    .content
+      .inner
+        .logo
+        form(action="", method="get")
+          input(type="text", placeholder="Username")
+          input(type="password", placeholder="Password")
+          button.btn.btn-green Login
+          a.btn.btn-blue(href="forgot.html") Forgot Password
+    
+    script(src='assets/js/vendor.js')
+    script(src='assets/js/app.js')

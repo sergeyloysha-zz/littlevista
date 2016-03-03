@@ -1,0 +1,84 @@
+doctype
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+
+    title Little Vista
+
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+
+    link(rel='stylesheet', href='assets/styles/vendor.css')
+    link(rel='stylesheet', href='assets/styles/app.css')
+
+  body.white
+    #wrapper
+      aside#sidebar
+        .sidebar__header
+          a.sidebar__logo(href="index.html")
+        .account
+          h3.account__name Nikki Byrne
+          span.account__info Inspire Creche, Naas Co. Kildare
+        nav.nav
+          a.nav__link.nav__link-active
+            i.nav__icon.nav__icon-dashboard
+            span Dashboard
+          a.nav__link
+            i.nav__icon.nav__icon-review
+            span Review
+          a.nav__link
+            i.nav__icon.nav__icon-account
+            span My Account
+          a.nav__link
+            i.nav__icon.nav__icon-logout
+            span Logout
+        
+        a.sidebar__contact(href="#contact") Contact
+
+      #content.content
+        .weekly
+          .man
+            .man__photo
+              img(src="//place-hold.it/120x120")
+            .man__info
+              .man__title Weekly occupancy for
+              .man__name Eva Duggan
+
+          .days
+            .day
+              .day__title Monday
+              .day__data
+                .day__data-clock.day__data-clock_green AM
+                .day__data-sep
+                .day__data-clock.day__data-clock_blue PM
+            .day
+              .day__title Tuesday
+              .day__data
+                .day__data-clock.day__data-clock_green AM
+                .day__data-sep
+                .day__data-clock.day__data-clock_blue PM
+            .day
+              .day__title Wednesday
+              .day__data
+                .day__data-clock.day__data-clock_green AM
+                .day__data-sep
+                .day__data-clock PM
+            .day
+              .day__title Thursday
+              .day__data
+                .day__data-clock.day__data-clock_green AM
+                .day__data-sep
+                .day__data-clock PM
+            .day
+              .day__title Friday
+              .day__data
+                .day__data-clock.day__data-clock_green AM
+                .day__data-sep
+                .day__data-clock PM
+
+          .total
+            span.total__headline Total Occupancy
+            span.total__data 5 mornings & 2 Afternoons
+          .control
+            a(href="") Save

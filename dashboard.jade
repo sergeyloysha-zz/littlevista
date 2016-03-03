@@ -1,0 +1,63 @@
+doctype
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+
+    title Little Vista
+
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+
+    link(rel='stylesheet', href='assets/styles/vendor.css')
+    link(rel='stylesheet', href='assets/styles/app.css')
+
+  body
+    #wrapper
+      aside#sidebar
+        .sidebar__header
+          a.sidebar__logo(href="index.html")
+        .account
+          h3.account__name Nikki Byrne
+          span.account__info Inspire Creche, Naas Co. Kildare
+        nav.nav
+          a.nav__link.nav__link-active
+            i.nav__icon.nav__icon-dashboard
+            span Dashboard
+          a.nav__link
+            i.nav__icon.nav__icon-review
+            span Review
+          a.nav__link
+            i.nav__icon.nav__icon-account
+            span My Account
+          a.nav__link
+            i.nav__icon.nav__icon-logout
+            span Logout
+        
+        a.sidebar__contact(href="#contact") Contact
+
+      #content.content
+        .content__header
+          span.content__headline Dashboard
+          span.content__page HOME
+
+        .cards
+          .card
+            .card__icon.card__icon-calendar
+            .card__name Occupancy Planning
+            .card__info Manage your rooms, places & bookings
+            a.card__button(href="#") Open
+          .card
+            .card__icon.card__icon-handshake
+            .card__name Payments
+            .card__info Review, update & manage your payments
+            a.card__button(href="#") Open
+          .card
+            .card__icon.card__icon-reports
+            .card__name Reports
+            .card__info Review your buisiness at a glance
+            a.card__button(href="#") Open
+        .cards__control
+          a.family-button(href="#")
+            i
+            span Add New Family
