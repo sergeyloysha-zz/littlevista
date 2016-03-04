@@ -494,3 +494,151 @@ body
 			&:hover
 				background #54afe2
 				color #fff
+				
+.planning
+	padding 20px 50px
+	
+	&__title
+		font-size 24px
+		color #494949
+		margin-bottom 30px
+	
+	&__controls
+		clearfix()
+		margin-bottom 20px
+		
+	&__staff
+		float left
+		
+		&-headline
+			font-size 24px
+			color #494949
+			
+		&-enum
+			margin-top 20px
+			position relative
+			clearfix()
+			
+	&__man
+		float left
+		line-height 65px
+		margin-right 50px
+		color #494949
+		
+		img
+			display block
+			margin 0
+			float left
+			border-radius 50%
+		span
+			float left
+			margin-left 20px
+			font-size 18px
+	
+	&__add
+		float left
+		line-height 65px
+		padding-left 59px
+		background url('../images/icon-add.png') left center no-repeat
+		color #a4a4a4
+		text-decoration none
+		
+	&__capacity
+		float right
+		
+		&-headline
+			font-size 18px
+			color #494949
+			
+		&-enum
+			position relative
+			
+		&-item
+			display block
+			font-size 22px
+			color #494949
+			line-height 32px
+			margin-top 20px
+			
+			i
+				display inline-block
+				width 32px
+				height 32px
+				background-image url('../images/sprite-capacity.png')
+				background-repeat no-repeat
+				background-position 0 0
+				vertical-align middle
+			span
+				display inline-block
+				line-height 32px
+				vertical-align middle
+				margin-left 20px
+				
+			&_1 i
+				background-position -32px 0
+	
+	.summary
+		border-top 1px solid #555
+		padding-top 50px
+		
+		&__grid
+			clearfix()
+			text-align center
+			margin 0 -35px
+			
+			&-days .summary__row
+				height auto
+			
+		&__row
+			display inline-block
+			margin 0 20px
+			vertical-align top
+			width 90px
+			height 140px
+			text-align center
+			
+		&__day
+			vertical-align top
+			font-size 18px
+			color #494949
+			text-transform uppercase
+			
+		&__clock
+			display inline-block
+			padding-top 48px
+			width 48px
+			font-size 24px
+			text-align center
+			color #494949
+			background url('../images/icon-clock.png') top center no-repeat
+			margin-top 45px
+			
+		&__info
+			margin-top 40px
+			
+			&-top
+				font-size 18px
+				color #4a4a4a
+				
+			&-sep
+				display inline-block
+				width 70%
+				height 1px
+				background #acacac
+				margin 3px 0
+				
+			&-bottom
+				color #4a4a4a
+				font-size 28px
+				
+		&__total
+			margin-top 40px
+			font-size 28px
+			font-size #4a4a4a
+			width 80px
+			height 80px
+			line-height 76px
+			text-align center
+			border 2px solid #ebebeb
+			border-radius 50%
+		
