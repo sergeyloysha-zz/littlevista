@@ -487,3 +487,176 @@ body {
   background: #54afe2;
   color: #fff;
 }
+.planning {
+  padding: 20px 50px;
+}
+.planning__title {
+  font-size: 24px;
+  color: #494949;
+  margin-bottom: 30px;
+}
+.planning__controls {
+  zoom: 1;
+  margin-bottom: 20px;
+}
+.planning__controls:after,
+.planning__controls:before {
+  content: "";
+  display: table;
+}
+.planning__controls:after {
+  clear: both;
+}
+.planning__staff {
+  float: left;
+}
+.planning__staff-headline {
+  font-size: 24px;
+  color: #494949;
+}
+.planning__staff-enum {
+  margin-top: 20px;
+  position: relative;
+  zoom: 1;
+}
+.planning__staff-enum:after,
+.planning__staff-enum:before {
+  content: "";
+  display: table;
+}
+.planning__staff-enum:after {
+  clear: both;
+}
+.planning__man {
+  float: left;
+  line-height: 65px;
+  margin-right: 50px;
+  color: #494949;
+}
+.planning__man img {
+  display: block;
+  margin: 0;
+  float: left;
+  border-radius: 50%;
+}
+.planning__man span {
+  float: left;
+  margin-left: 20px;
+  font-size: 18px;
+}
+.planning__add {
+  float: left;
+  line-height: 65px;
+  padding-left: 59px;
+  background: url("../images/icon-add.png") left center no-repeat;
+  color: #a4a4a4;
+  text-decoration: none;
+}
+.planning__capacity {
+  float: right;
+}
+.planning__capacity-headline {
+  font-size: 18px;
+  color: #494949;
+}
+.planning__capacity-enum {
+  position: relative;
+}
+.planning__capacity-item {
+  display: block;
+  font-size: 22px;
+  color: #494949;
+  line-height: 32px;
+  margin-top: 20px;
+}
+.planning__capacity-item i {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url("../images/sprite-capacity.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  vertical-align: middle;
+}
+.planning__capacity-item span {
+  display: inline-block;
+  line-height: 32px;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+.planning__capacity-item_1 i {
+  background-position: -32px 0;
+}
+.planning .summary {
+  border-top: 1px solid #555;
+  padding-top: 50px;
+}
+.planning .summary__grid {
+  zoom: 1;
+  text-align: center;
+  margin: 0 -35px;
+}
+.planning .summary__grid:after,
+.planning .summary__grid:before {
+  content: "";
+  display: table;
+}
+.planning .summary__grid:after {
+  clear: both;
+}
+.planning .summary__grid-days .summary__row {
+  height: auto;
+}
+.planning .summary__row {
+  display: inline-block;
+  margin: 0 20px;
+  vertical-align: top;
+  width: 90px;
+  height: 140px;
+  text-align: center;
+}
+.planning .summary__day {
+  vertical-align: top;
+  font-size: 18px;
+  color: #494949;
+  text-transform: uppercase;
+}
+.planning .summary__clock {
+  display: inline-block;
+  padding-top: 48px;
+  width: 48px;
+  font-size: 24px;
+  text-align: center;
+  color: #494949;
+  background: url("../images/icon-clock.png") top center no-repeat;
+  margin-top: 45px;
+}
+.planning .summary__info {
+  margin-top: 40px;
+}
+.planning .summary__info-top {
+  font-size: 18px;
+  color: #4a4a4a;
+}
+.planning .summary__info-sep {
+  display: inline-block;
+  width: 70%;
+  height: 1px;
+  background: #acacac;
+  margin: 3px 0;
+}
+.planning .summary__info-bottom {
+  color: #4a4a4a;
+  font-size: 28px;
+}
+.planning .summary__total {
+  margin-top: 40px;
+  font-size: 28px;
+  font-size: #4a4a4a;
+  width: 80px;
+  height: 80px;
+  line-height: 76px;
+  text-align: center;
+  border: 2px solid #ebebeb;
+  border-radius: 50%;
+}
