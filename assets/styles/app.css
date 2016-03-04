@@ -1023,7 +1023,7 @@ body {
   float: right;
   zoom: 1;
   list-style: none;
-  margin-bottom: 300px;
+  padding-bottom: 300px;
 }
 .payments__pagination:after,
 .payments__pagination:before {
